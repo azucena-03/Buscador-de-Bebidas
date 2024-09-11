@@ -1,34 +1,31 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Buscador de Bebidas
+Aplicación web que permite a los usuarios buscar bebidas por nombre o ingrediente dentro de distintas categorías.<br/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Sitio Activo](https://buscador-drinkify.netlify.app/)
+<table>
+  <tbody>
+    <td>
+      <img src="https://i.pinimg.com/736x/4d/3a/45/4d3a4506b47013bf10716290cca14db1.jpg" width=500/>
+    </td>
+  </tbody>
+</table>
 
-Currently, two official plugins are available:
+## Instalación
+1. Clona el repositorio:<br/>
+git clone https://github.com/azucena-03/Buscador-de-Bebidas.git
+2. Instala las dependencias:<br/>
+cd Buscador-de-Bebidas<br/>
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Uso
+Una vez que la aplicación esté en funcionamiento, podrás buscar bebidas utilizando el campo de búsqueda. Simplemente ingresa el nombre o ingrediente de la bebida luego selecciona una categoria y explora las opciones disponibles.
 
-## Expanding the ESLint configuration
+## Tecnologías
+- React
+- TypeScript
+- API
+- React Router
+- Zustand
+- Zod
+- Tailwind.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-=======
-# Buscador-de-Bebidas
->>>>>>> 11fe173de10614bc001857518ba5f917d7e26f60
